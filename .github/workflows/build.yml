@@ -115,10 +115,11 @@ jobs:
 
       - name: Install Ubuntu dependencies
         if: runner.os == 'Linux'
+        timeout-minutes: 15
         run: |
           sudo apt-get update
-          sudo apt-get install build-essential pkg-config cmake ninja-build curl qemu-user libc6-i386-cross
-          sudo apt-get install gcc-aarch64-linux-gnu gcc-arm-linux-gnueabihf gcc-riscv64-linux-gnu gcc-14-loongarch64-linux-gnu
+          # fork: x86_64 only, no cross toolchains or qemu needed
+          sudo apt-get install -y build-essential pkg-config cmake ninja-build curl
 
       - name: Install macOS dependencies
         if: runner.os == 'macOS'
