@@ -326,3 +326,75 @@
   - CURL_IMPERSONATE: safari270
   - libcurl-impersonate
   - safari270
+- - curl_chrome153
+  - null
+  - null
+  - chrome153
+- - minicurl
+  - CURL_IMPERSONATE: chrome153
+  - libcurl-impersonate
+  - chrome153
+- - curl_chrome154
+  - null
+  - null
+  - chrome154
+- - minicurl
+  - CURL_IMPERSONATE: chrome154
+  - libcurl-impersonate
+  - chrome154
+- - curl_chrome155
+  - null
+  - null
+  - chrome155
+- - minicurl
+  - CURL_IMPERSONATE: chrome155
+  - libcurl-impersonate
+  - chrome155
+- - curl_chrome153_macos
+  - null
+  - null
+  - chrome153_macos
+- - minicurl
+  - CURL_IMPERSONATE: chrome153_macos
+  - libcurl-impersonate
+  - chrome153_macos
+- - curl_chrome154_macos
+  - null
+  - null
+  - chrome154_macos
+- - minicurl
+  - CURL_IMPERSONATE: chrome154_macos
+  - libcurl-impersonate
+  - chrome154_macos
+- - curl_chrome155_macos
+  - null
+  - null
+  - chrome155_macos
+- - minicurl
+  - CURL_IMPERSONATE: chrome155_macos
+  - libcurl-impersonate
+  - chrome155_macos
+- - curl_chrome153_linux
+  - null
+  - null
+  - chrome153_linux
+- - minicurl
+  - CURL_IMPERSONATE: chrome153_linux
+  - libcurl-impersonate
+  - chrome153_linux
+- - curl_chrome154_linux
+  - null
+  - null
+  - chrome154_linux
+- - minicurl
+  - CURL_IMPERSONATE: chrome154_linux
+  - libcurl-impersonate
+  - chrome154_linux
+- - curl_chrome155_linux
+  - null
+  - null
+  - chrome155_linux
+- - minicurl
+  - CURL_IMPERSONATE: chrome155_linux
+  - libcurl-impersonate
+  - chrome155_linux
