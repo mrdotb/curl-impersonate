@@ -30,6 +30,7 @@ env:
 
 jobs:
   build-windows:
+    if: false  # fork: only x86_64-linux-gnu is built
     name: Build windows binaries
     strategy:
       matrix:
